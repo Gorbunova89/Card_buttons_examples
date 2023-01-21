@@ -1,0 +1,15 @@
+body{ 
+    background: rgb(27,22,108);
+    background: linear-gradient(90deg, rgba(27,22,108,1) 0%, rgba(21,21,177,1) 28%, rgba(31,186,218,1) 100%);
+    
+}
+
+/* .serviceBox{
+    border: 1px solid #4e4e4e;
+    text-align: center;
+    padding: 40px 0;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    transition: all 0.5s ease 0s;
+   } */
