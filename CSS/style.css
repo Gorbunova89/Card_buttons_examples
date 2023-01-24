@@ -97,8 +97,8 @@ body{
    }
 
    /* Buttons */
-
-   .btn{
+    
+   .buttons .btn{
     position: relative;
     color:#fff;
     border-radius:30px;
@@ -160,4 +160,52 @@ body{
     .btn{
     margin-bottom:15px;
     }
+   }
+
+   /* my cards */
+
+   .btn1 .green1 {
+    transform: scale(1.1,1.1);
+    transition:all 0.3s ease-out 0s;
+    border-radius:30px;
+    background: radial-gradient(circle, rgba(251,128,172,0.9164040616246498) 24%, rgba(252,70,107,1) 100%);
+   }
+
+   .btn1 .green1:hover{
+    transform: scale(1,1);
+    /* color:#fff; */
+}
+
+   .examples .card {
+    border: 3px solid #f83600;
+   }
+
+   /* .cardColor {
+    border: 1px solid #4e4e4e;
+    text-align: center;
+    padding: 40px 0;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    transition: all 0.5s ease 0s;
+   } */
+
+    .cardColor
+    {
+    content: "";
+    /* width: 200%; */
+    /* height: 200%; */
+    background: #eba133;
+    position:static;
+    /* top: 160px; */
+    /* left: 0; */
+    z-index: -1;
+    transform: rotate(-18deg);
+    transition: all 0.5s ease 0s;
+   }
+
+   .cardColor {
+    background: #4e4e4e;
+    left: -120%;
+    transform: rotate(24deg);
    }
